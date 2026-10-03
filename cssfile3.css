@@ -1,0 +1,31 @@
+.box{
+   display:grid;
+   grid-template-columns:50px;
+   grid-template-rows:100px;
+   border:20px solid black;
+   justify-items: center; 
+}
+.block{
+    justify-self:center;
+    align-self:center;
+}
+footer{
+    display:grid;
+    justify-content:center;
+    grid-template-rows:auto;
+    grid-template-columns:auto;
+    border-top:darkgrey 2px solid;
+    background-color:lightgray;
+}
+footer p{
+    font-size:85%;
+}
+html, body {
+  overscroll-behavior: none;
+}
+.gridstart{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    padding-left:20px;
+}

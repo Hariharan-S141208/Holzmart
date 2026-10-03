@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOLZMART</title>
+        <meta charset="UTF-8">
+        <meta name="Timbers" content="Timber E-commerce site">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./cssfile2.css"> 
+        <link rel="icon" href="./favicon1.png" sizes="16X16 32X32" type="image/png">
+    </head>
+    <body>
+        <div class="item1">
+            <h2 style="font-family: 'Merriweather', serif; font-size:3rem;">Your Trusted<br><b style="font-size:4rem">TIMBERPLACE!</b></h2>
+            <img class="img1" src="./loginpgimg.png" alt="" title="collage image" height="500px" width=auto>
+        </div>
+        <div class="item2">
+            <h1>Login To Continue!</h1>
+            <h3>EMAIL</h3>
+            <input type="email" minlength="8" maxlength="100" required>
+            <h3>PASSWORD</h3>
+            <input type="password" minlength="8" maxlength="20" required>
+            <h3></h3>
+            <input type="submit" value="LOGIN" onclick="login(email.value, pwd.value)" style="border:2px solid black; width:80px; height:30px; background-color:red;font-weight:bold;">
+            <input type="submit" value="CREATE ACCOUNT" onclick="signup(email.value, pwd.value)" style="border:2px solid black; width:150px; height:30px; background-color:lightgray;font-weight:bold;">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script src="./authentication.js"></script>
+    </body>
+</html>
